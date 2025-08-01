@@ -1,0 +1,393 @@
+There are three main types of vaiables:let,var and const.
+- let is used for variables that can be reassigned.
+- var is used for variables that can be reassigned, but it is not recommended to use it
+- const is used for variables that cannot be reassigned.
+    
+DATATYPES OF JAVASCRIPT
+======================
+Datatypes are categories into two types:Primitive and Reference.
+- Primitive types are the basic types of data in JavaScript, such as numbers, strings, booleans,undefined,null.
+- Reference types are the types of data that are references to other data, such as arrays, objects,functions.
+There are several data types in JavaScript, including:
+- Number: This is used to store numbers.
+- String: This is used to store strings of characters.
+- Boolean: This is used to store true or false values.
+- Null: This is used to store a null value.
+- Undefined: This is used to store an undefined value.
+- Object: This is used to store a collection of key-value pairs.
+- Array: This is used to store a collection of values.
+
+   Object in JAVASCRIPT
+   =====================
+   An object in JavaScript is a collection of key-value pairs. It is a data type that is
+   used to store a collection of data. It is a reference type, meaning that it is a
+   reference to other data. Objects are used to store data in a structured way, and they
+   can be used to store a wide range of data, including numbers, strings, booleans,
+   arrays, and other objects.
+   An object in JavaScript is defined using the following syntax: let objectname={
+    key1:value1,key2:value2,...}. For example, let person={name:"John
+        Doe",age:30,city:"New York"}. This object has three key-value pairs
+        : name, age, and city. The key is the name of the property, and th
+        value is the value of the property.
+        Object methods
+        An object in JavaScript can have methods, which are functions that are
+        associated with the object. Methods are used to perform actions on the object.
+        For example, let person={name:"John Doe",age:30,city:"New York
+            ,greet:function(){console.log("Hello, my name is "+this.name)}}. This
+            object has a method called greet, which prints out a greeting message
+            to the console.
+            Object properties
+            An object in JavaScript can have properties, which are values that are
+            associated with the object. Properties are used to store data in the object.
+            For example, let person={name:"John Doe",age:30,city:"New York
+                ,address:{street:"123 Main St",city:"New York",state:"NY"}}.
+                This object has a property called address, which is an object itself.
+                Object methods and properties
+                An object in JavaScript can have both methods and properties. Methods are functions that are associated with the object
+                , and properties are values that are associated with the object. For example, let person={name
+
+ARRAY IN JAVASCRIPT
+====================
+An array in JavaScript is a collection of values. It is a data type that is used to stor
+a collection of data. It is a reference type, meaning that it is a reference to other data
+An array in JavaScript is defined using the following syntax:let a=[item1,item2...];
+For example, let a=[1,2,3,4,5]; This array has Five items: 1,2,3,4,5.
+Array methods
+An array in JavaScript can have methods, which are functions that are associated with the array.
+Methods are used to perform actions on the array.
+For example, let a=[1,2,3,4,5]; a.push(6
+    
+FUNCTIONS IN JAVASCRIPT
+=====================
+A function in JavaScript is a block of code that can be executed multiple times.
+It is a reusable block of code that can be called multiple times from different parts of the code.
+A function in JavaScript is defined using the following syntax: function name(parameters)
+{
+    // code to be executed
+    }
+    For example, function greet(name)
+    {
+        console.log("Hello, "+name);
+        }
+        This function takes a parameter called name, and prints out a greeting message to the console.
+        Function parameters
+        A function in JavaScript can have parameters, which are values that are passed to the function when it is
+        called. Parameters are used to pass data to the function.
+        For example, function greet(name)
+        {
+            console.log("Hello, "+name);
+            }
+            This function has a parameter called name, which is passed to the function when it is called.
+            Function return values
+            A function in JavaScript can return a value. The return value is the value that is returned by the
+            function when it is called.
+            For example, function add(a,b)
+            {
+                return a+b;
+                }
+                This function takes two parameters called a and b, and returns their sum.
+                Function scope
+                A function in JavaScript has its own scope, which is the region of the code where the function is
+                defined. The scope of a function is used to determine the visibility of variables and functions
+                Function hoisting
+                A function in JavaScript is "hoisted" to the top of its scope, which means that it
+TYPES OF FUMCTION IN JAVASCRIPT
+================================
+There are several types of functions in JavaScript, including:
+1.  Function expressions: These are functions that are defined using the function keyword.
+2.  Function declarations: These are functions that are defined using the function keyword, but they ar
+3.  Arrow functions: These are functions that are defined using the arrow syntax.
+4.  Anonymous functions: These are functions that are defined without a name.
+5.  Closures: These are functions that have access to their own scope, as well as
+6.  Higher-order functions: These are functions that take other functions as arguments or return functions as
+7.  Callback functions: These are functions that are passed as arguments to other functions, and ar
+8.  Generator functions: These are functions that can be paused and resumed during execution, and ar
+9.  Async functions: These are functions that can be used to write asynchronous code, and ar
+
+OPERATORS IN JAVASCRIPT
+=====================
+Operators in JavaScript are used to perform operations on variables and values.
+There are several types of operators in JavaScript, including:
+1.  Arithmetic operators: These are used to perform mathematical operations, such as addition, subtraction,
+2.  Comparison operators: These are used to compare values, such as equality and inequality.
+3.  Logical operators: These are used to perform logical operations, such as AND and OR.
+4.  Assignment operators: These are used to assign values to variables.
+5.  Bitwise operators: These are used to perform bitwise operations, such as AND and OR
+6.  Unary operators: These are used to perform operations on a single value, such as increment and decrement.
+7.  Ternary operators: These are used to perform conditional operations, such as if-
+8.  Object operators: These are used to perform operations on objects, such as property access and
+
+CONDITIONAL STATEMENTS IN JAVASCRIPT
+================================
+Conditional statements in JavaScript are used to control the flow of a program based on certain conditions.
+There are several types of conditional statements in JavaScript, including:
+1.  If-else statements: These are used to execute different blocks of code based on a
+2.  Switch statements: These are used to execute different blocks of code based on the value of
+3.  Ternary operators: These are used to perform conditional operations, such as if-
+
+LOOPING STATEMENTS IN JAVASCRIPT
+================================
+Looping statements in JavaScript are used to execute a block of code repeatedly.
+There are several types of looping statements in JavaScript, including:
+1.  For loops: These are used to execute a block of code repeatedly for a specified number
+2.  While loops: These are used to execute a block of code repeatedly while a certain condition
+3.  Do-while loops: These are used to execute a block of code repeatedly while a
+for-of loop
+A for-of loop is a type of loop that is used to iterate over the values of an array
+Syntax:for(let val of strVar){
+    // code to be executed
+}
+Basically for-of loop is used for arrays and strings.
+for-in loop
+A for-in loop is a type of loop that is used to iterate over the properties of an object
+Syntax:for(let key in obj){
+    // code to be executed
+}
+STRING IN JAVASCRIPT
+====================
+Strings in JavaScript are used to represent text.
+There are several types of strings in JavaScript, including:
+1.  Single-quoted strings: These are strings that are enclosed in single quotes.
+2.  Double-quoted strings: These are strings that are enclosed in double quotes.
+3.  Template literals: These are strings that are enclosed in backticks and can contain expressions.
+
+TEMPLATE LITERAL IN JAVASCRIPT
+================================
+Template literals in JavaScript are used to create strings that can contain expressions.
+They are enclosed in backticks and can contain placeholders for values.
+STRING INTERPOLATION
+String interpolation is a feature of template literals that allows you to insert the value of a variable into a string.
+
+ESCAPE CHARACTERS IN JAVASCRIPT
+================================
+Escape characters in JavaScript are used to represent special characters in a string.
+They are used to escape the special meaning of a character, so that it can be treated as a
+character instead.
+String are immutable in javascript.
+examples of escape characters:-
+1.  \n: This is used to represent a newline character.
+2.  \t: This is used to represent a tab character.
+3.  \r: This is used to represent a carriage return character.
+4.  \b: This is used to represent a backspace character.
+5.  \f: This is used to represent a form feed character.
+6.  \\": This is used to represent a double quote character.
+7.  \': This is used to represent a single quote character.
+string methods in javascript:-
+These are built-in functions to manipulate a string.
+1. str.UpperCase()
+2. str.toLowerCase()
+3. str.trim()
+4. str.split()
+5. str.join()
+6. str.replace(searchVal,newVal)
+7. str.search()
+8. str.match()
+9. str.indexOf()
+10. str.lastIndexOf()
+11. str.slice(start,end?)//returns part of string.here end value is not included.
+12. str1.concat(str2)//joins str2 with str1
+13. str.charAt(idx)
+methods of arrays:-
+1. arr.length
+2. arr.push(val)
+3. arr.pop()
+4. arr.shift() //delete from start and return.
+5. arr.unshift(val) //add to start.
+6. arr.splice(start,deleteCount,insertItem1,insertItem2,...) //change original array(add,remove,replace)
+7. arr.concat(arr2) //joins multiple arrays and returns result.
+8. toString(); // converts array to string
+9. arr.indexOf(val) //returns index of first occurrence of val.
+10. arr.lastIndexOf(val) //returns index of last occurrence of val.
+11. slice()
+12. arr.map() //this fun is same as forEach loop but it creates a new array whereas forEach cannot creates another array.
+13. arr.filter() //creates a new arrayof elements that give true for a condition/filter.
+14. arr.reduce(previous val,current val) //performs some operations & reduces the arrayto a single value.It returns that single value.
+15. arr.forEach()
+16. arr.every()
+17. arr.some()
+FUNCTIONS IN JAVASCRIPT
+======================
+Functions in JavaScript are reusable blocks of code that can be called multiple times from
+different parts of the program.
+They are used to perform a specific task or set of tasks.
+A function can take arguments, perform some operations, and return a value.
+Types of functions in JavaScript:-
+1.  Function declaration: This is the most common way to define a function in JavaScript.
+It is defined with the keyword "function" followed by the function name and the parameters
+enclosed in parentheses.
+2.  Function expression: This is a function that is defined as a value of a variable.
+It is defined with the keyword "function" followed by the function name and the parameters
+enclosed in parentheses, but it is assigned to a variable.
+3.  Arrow function: This is a concise way to define a function in JavaScript.
+It is defined with the keyword "=>"
+4.  Anonymous function: This is a function that is defined without a name.
+ 5.  Higher-order function: This is a function that takes another function as an argument or returns
+    a function as a result.
+ 6. Callback function: This is a function that is passed as an argument to another function.
+ 7.  Closure: This is a function that has access to its own scope and the scope.
+ forEach LOOP IN ARRAYS
+ ================
+ forEach loop is used to iterate over each element in an array.
+ It is a method of the Array object.
+ It takes a callback function as an argument, which is called for each element in the array.
+ The callback function takes three arguments: the current element, the index of the current element,
+ and the array itself.
+ forEach loop is used to perform operations on each element in an array, such as printing the
+ elements, or performing some calculations.
+ Callback:-
+ A callback is a function that is passed as an argument to another function.
+ It is used to perform some operation when an event occurs or when a function is called.
+ forEach loop is also known as "higher order function"/"higher order method".
+ Those functions which use other functions as a parameter known as higher order functions.
+ forEach loop is used to iterate over each element in an array.
+ forEach loop is used to perform operations on each element in an array.
+ forEach loop is used to iterate over each element in an array.
+ forEach loop is used to perform operations on each element in an array.
+ forEach loop is used to iterate over each element in an array.
+ forEach loop is used to perform operations on each element in an array.
+ WINDOW OBJECT IN JAVASCRIPT:-
+ ================
+ The window object is the global object in JavaScript.
+ It is the topmost object in the DOM tree.
+ It is the object that contains all the global variables and functions.
+ It is the object that is used to access the browser's window.
+ It is the object that is used to access the document object.
+ It is the object that is used to access the navigator object.
+ It is the object that is used to access the screen object.
+ It is the object that is used to access the history object.
+ It is the object that is used to access the location object.
+ It is the object that is used to access the cookie object.
+ It is the object that is used to access the localStorage object.
+ It is the object that is used to access the sessionStorage object.
+ It is the object that is used to access the console object.
+ DOM IN JAVASCRIPT:-
+ ================
+ DOM stands for Document Object Model.
+ It is a programming interface for HTML and XML documents.
+ It is a tree-like data structure that represents the structure of an HTML or XML document.
+ It is used to access and manipulate the elements of an HTML or XML document.
+ It is used to add, remove, and modify the elements of an HTML or XML document.
+ It is used to access the attributes and properties of the elements of an HTML or XML document.
+ It is used to access the events of the elements of an HTML or XML document.
+ It is used to access the styles of the elements of an HTML or XML document.
+ It is used to access the scripts of the elements of an HTML or XML document.
+ It is used to access the cookies of the elements of an HTML or XML document.
+ # When a web page is loaded,the browser creates a "Document object model"(dom) of the page.
+ console.dir->document->properties/methods
+ DOM MANIPULATION:-
+ ================
+ DOM manipulation is the process of adding, removing, or modifying the elements of an HTML or XML document
+ It is used to add new elements to the document.
+ It is used to remove existing elements from the document.
+ It is used to modify the attributes and properties of the elements of an HTML or XML document.
+ It is used to access the events of the elements of an HTML or XML document.
+ It is used to access the styles of the elements of an HTML or XML document.
+ It is used to access the scripts of the elements of an HTML or XML document.
+ QUERY SELECTOR:-
+ =================
+ Query selector is a method used to select elements from an HTML document.
+ It is used to select elements based on their id, class, tag name, and other attributes.
+ It is used to select elements based on their position in the document.
+ It is used to select elements based on their relationship to other elements.
+ It is used to select elements based on their style and layout.
+ It is used to select elements based on their content and text.
+ It is used to select elements based on their attributes and properties.
+ DOM MANIPULATION PROPERTIES:-
+ ================================
+ The following are some of the most commonly used properties in DOM manipulation:
+ 1. innerHTML: This property is used to get or set the HTML content of an element
+ 2. innerText: This property is used to get or set the text content of an element
+ 3. outerHTML: This property is used to get or set the HTML content of an element
+ 4. outerText: This property is used to get or set the text content of an element
+ # There are three types of nodes in dom tree:-
+ 1. Element node
+ 2. Attribute node//comment node
+ 3. Text node
+ ATTRIBUTES OF DOM MANIPULATION:-
+ -------------------------------
+ The following are some of the most commonly used attributes in DOM manipulation:
+ 1. getAttribute(attr):-to get the attribute value.
+ 2. setAttribute(attr,value):-to set the attribute value.
+ INSERT ELEMENTS IN DOM MANIPULATION:-
+ =====================================
+ The following are some of the most commonly used methods in DOM manipulation to insert elements:
+ 1. node.append(el)//adds at the end of the node(inside).
+ 2. node.prepend(el)//adds at the start of the node(inside).
+ 3. node.before(el)//adds before the node(outside).
+ 4. node.after(el)//adds after the node(outside).
+ DELETE ELEMENTS FROM THE NODES:-
+ --------------------------------
+ 1. node.remove()//remove the node.
+ 1. what is classList?
+
+ EVENTS IN JAVASCRIPT:-
+ ----------------------
+ 1. The change in the state of an object is known as an event.
+ 2. events are fired to notify code of "interesting changes" that may affect code execution.
+ . Mouse events(click,double click etc.)
+ . Keyboards events(keypress,keyup,keydown)
+ . Form events(submit etc.)
+ . print events & many more.
+ ondblclick=is used for double click.
+
+ EVENT OBJECT:-
+ ----------------
+ It is a special object that has details about the event.
+ All event handlers have access to the Event Object's properties and methods.
+ node.event = (e) =>{
+    //handle here
+ }
+ . event.type
+ . event.target
+ EVENT LISTENERS:-
+ -------------------
+ 1. node.addEventListener(event,callback)
+ 2. node.removeEventListener(event,callback)
+ *Note:-the callback reference should be same to remove.
+ CLASSES AND OBJECTS IN JS:-
+ ---------------------------
+ 1. A javascript object is an entity having state and behaviour(properties and method).
+ 2. JS objects have a special property called prototype. 
+ NOTE:-If object & prototype have same method,object's method willbe used.
+ Classes in js:-
+ 1. Class is a program-code template for creating objects.
+ 2. Those objects will have some state (variables) & some behaviour(functions) inside it.
+
+CONSTRUCTOR:-
+---------------
+Constructoe method is:
+1. automatically invoked by new
+2. initialize object
+super Keyword:-
+-----------------
+This keyword is used to call the constructor of its parent class to access the parent's properties and methods.
+
+ERROR HANDLING IN JAVASCRIPT:-
+-------------------------------
+try-catch
+---------
+try{
+    ....normal code
+}catch(err){//err is error object
+...handling error
+}
+
+SYNC IN JS:-
+--------------
+Synchronous:-
+Synchronous means the code runs in a particular sequence of instructions given in the program.Each instruction waits for the previous instruction to complete its execution.
+
+Asynchronous:-
+Due to synchronous programming,sometimes important instruction  get blocked due to some previous instructions,which causes a delay in the UI. Asynchronous code execution allows to execute next instructiions immediately and doesn't block the flow.
+
+Callback Hell:-
+----------------
+1. Nested callbacks stacked below one another forming a pyramid structure.(Pyramid Of Doom)
+2. This style of programming becomes difficult to understand & manage. 
+
+Note:-
+--------
+async await>>promise chains>>callback hell
+ 
+
+
